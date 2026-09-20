@@ -1,0 +1,4 @@
+﻿compound_name,logp_2mg,asi,masi,phb,dmphb,cphb,cdmphb,fsi,tml,ce4,casi,chain_length,self_immolative,tg_linkage,branch_modifications,mw,predicted_transport_rate
+New-A-C12,5.5,0,0,0,0,0,0,0,0,0,0,11,0,1,0,1097.57,27.897200000000005
+New-B-MASI-C12a,6.4,0,1,0,0,0,0,0,0,0,0,11,1,1,2,1169.67,34.29893333333334
+New-C-DMPHB-C8,7.32,0,0,0,1,0,0,0,0,0,0,9,1,1,1,1217.72,10.906322222222222

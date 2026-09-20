@@ -1,0 +1,11 @@
+# MPA linker 随机森林转运率预测项目依赖
+# 版本与训练环境一致；其余环境可使用较新版本（pip install -r requirements.txt 即可）。
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.5.1
+
+# Jupyter（用于 notebooks/MPA_RF_Training.ipynb；仅 Notebook 方式需要）
+jupyter
+ipykernel

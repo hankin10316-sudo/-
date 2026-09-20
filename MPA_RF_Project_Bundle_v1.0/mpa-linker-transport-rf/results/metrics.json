@@ -1,0 +1,117 @@
+{
+  "dataset": {
+    "n_samples": 86,
+    "n_features": 16,
+    "target": "transport_rate",
+    "features": [
+      "logp_2mg",
+      "asi",
+      "masi",
+      "phb",
+      "dmphb",
+      "cphb",
+      "cdmphb",
+      "fsi",
+      "tml",
+      "ce4",
+      "casi",
+      "chain_length",
+      "self_immolative",
+      "tg_linkage",
+      "branch_modifications",
+      "mw"
+    ]
+  },
+  "cross_validation": {
+    "n_folds": 5,
+    "r2_mean": 0.4950540838281001,
+    "r2_std": 0.417977663295817,
+    "mae_mean": 6.030705711058777,
+    "mae_std": 1.5012862520500583,
+    "rmse_mean": 8.22804617246199,
+    "rmse_std": 1.9545461778666533
+  },
+  "test_set": {
+    "n_test": 18,
+    "r2": 0.2845446397355248,
+    "mae": 9.701894029982356,
+    "rmse": 15.193752281791882
+  },
+  "model": {
+    "type": "RandomForestRegressor",
+    "params": {
+      "n_estimators": 300,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "logp_2mg",
+      "importance": 0.33932666433450215
+    },
+    {
+      "feature": "mw",
+      "importance": 0.25164183034013193
+    },
+    {
+      "feature": "chain_length",
+      "importance": 0.10983668852912638
+    },
+    {
+      "feature": "masi",
+      "importance": 0.1057618483469233
+    },
+    {
+      "feature": "branch_modifications",
+      "importance": 0.09878926726518474
+    },
+    {
+      "feature": "self_immolative",
+      "importance": 0.02512724349564059
+    },
+    {
+      "feature": "tg_linkage",
+      "importance": 0.0137136775676618
+    },
+    {
+      "feature": "asi",
+      "importance": 0.01141498202703382
+    },
+    {
+      "feature": "dmphb",
+      "importance": 0.00973385349068589
+    },
+    {
+      "feature": "phb",
+      "importance": 0.008616559834760845
+    },
+    {
+      "feature": "cdmphb",
+      "importance": 0.008150734133106722
+    },
+    {
+      "feature": "cphb",
+      "importance": 0.0063904483209501
+    },
+    {
+      "feature": "tml",
+      "importance": 0.005210755786491146
+    },
+    {
+      "feature": "ce4",
+      "importance": 0.004090882555763173
+    },
+    {
+      "feature": "fsi",
+      "importance": 0.002194563972037435
+    },
+    {
+      "feature": "casi",
+      "importance": 0.0
+    }
+  ]
+}
